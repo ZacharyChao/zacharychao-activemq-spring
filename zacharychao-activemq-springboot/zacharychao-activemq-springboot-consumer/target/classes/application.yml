@@ -1,0 +1,12 @@
+spring:
+  activemq:
+    broker-url: tcp://47.98.163.175:61616
+    user: admin
+    password: admin
+    in-memory: true
+    pool:
+      enabled: false
+queue:
+  name: queue_name_001
+topic: 
+  name: topic_name_001
